@@ -357,7 +357,7 @@ function callbackMessage($callback){
 }
 
 
-define('WEBHOOK_URL', 'https://xobot-maxtg.rhcloud.com');
+define('WEBHOOK_URL', 'https://xobot-maxtg.rhcloud.com/');
 
 if (php_sapi_name() == 'cli') {
   // if run from console, set or delete webhook
